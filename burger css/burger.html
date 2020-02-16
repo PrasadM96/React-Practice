@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Burger</title>
+	<style type="text/css">
+		.box{
+  width:500px;
+  height:450px;
+  margin:auto;
+}
+
+.bread-top{
+  width:80%;
+  height:20%;
+  background:linear-gradient(#ed8f15,#f2c39d);
+  border-radius:50% 50% 0 0;
+  margin:2% auto;
+  box-shadow:inset -15px 0 #c78a16;
+  position:relative;
+}
+
+.seeds{
+  position:absolute;
+  background-color:white;
+  width:10%;
+  height:15%;
+  left:30%;
+  top:50%;
+  border-radius:40%;
+  transform:rotate(20deg);
+  box-shadow:inset 1px 3px #b2b2b2;
+}
+
+.seeds:after{
+  content:"";
+  position:absolute;
+  width:100%;
+  height:100%;
+  background-color:white;
+  left:150%;
+  top:-150%;
+  transform:rotate(90deg);
+  border-radius:40%;
+  box-shadow:inset -1px 2px #b2b2b2;
+}
+
+.seeds:before{
+  width:100%;
+  height:100%;
+  position:absolute;
+  content:"";
+  background-color:white;
+  left:-160%;
+  top:130%;
+  transform:rotate(-60deg);
+  border-radius:40%;
+  box-shadow:inset 1px -2px #b2b2b2;
+}
+
+.seeds2{
+  position:absolute;
+  background-color:white;
+  width:10%;
+  height:15%;
+  left:70%;
+  top:50%;
+  border-radius:40%;
+  transform:rotate(30deg);
+  box-shadow:inset 1px 3px #b2b2b2;
+}
+
+
+.seeds2:after{
+  content:"";
+  position:absolute;
+  width:100%;
+  height:100%;
+  background-color:white;
+  left:130%;
+  top:-150%;
+  transform:rotate(-30deg);
+  border-radius:40%;
+  box-shadow:inset -1px 2px #b2b2b2;
+}
+
+.seeds2:before{
+  width:100%;
+  height:100%;
+  position:absolute;
+  content:"";
+  background-color:white;
+  left:-130%;
+  top:230%;
+  transform:rotate(-60deg);
+  border-radius:40%;
+  box-shadow:inset 1px -2px #b2b2b2;
+}
+
+.bread-bottom{
+  width:80%;
+  height:17%;
+  margin:2% auto;
+  background:linear-gradient(#f2c39d,#ed8f15);
+  border-radius: 0 0 30% 30%;
+  box-shadow:inset -15px 0 #c78a16;
+}
+
+.salad{
+  width:90%;
+  height:6%;
+  background:linear-gradient(#35e84a,#4b9654);
+  border-radius:30px;
+  margin:2% auto;
+}
+
+.bacon{
+  width:80%;
+  height:3%;
+  margin:2% auto;
+  background:linear-gradient(#935624,#8c4521);
+}
+
+.cheese{
+  width:90%;
+  height:5%;
+  background:linear-gradient(#e8e809,#e8e15c);
+  border-radius:20px;
+  margin:2% auto;
+}
+
+.meat{
+  width:82%;
+  height:5%;
+  background:linear-gradient(#6b2f07,#704916);
+  border-radius:20px;
+  margin:2% auto;
+}
+	</style>
+	
+</head>
+<body>
+<div class="box">
+  <div class="bread-top">  
+    <div class="seeds"></div>
+    <div class="seeds2"></div>
+  </div>
+ 
+  <div class="salad"></div>
+  <div class="salad"></div>
+  <div class="bacon"></div>
+ 
+   <div class="cheese"></div>
+   <div class="meat"></div>
+  <div class="bread-bottom"></div>
+</div>
+
+</body>
+
+</html>
